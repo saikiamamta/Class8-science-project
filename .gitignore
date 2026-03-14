@@ -1,0 +1,36 @@
+# Secrets
+.env
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs & temp files
+*.log
+*.tmp
+
+# User data (if you ever store assessment responses locally)
+outputs/
+*.csv
+*.json
+
+echo "chroma_db/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
